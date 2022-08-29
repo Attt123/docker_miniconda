@@ -3,7 +3,7 @@ name: Docker Image Conda
 on:
   push:
     paths:
-      - '.github/workflows/docker_image_conda.yml'
+      - 'workflows/docker_image_conda.yml'
       - 'Dockerfile'
       - 'requirements.txt' 
       
